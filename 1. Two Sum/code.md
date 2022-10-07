@@ -1,6 +1,6 @@
 ![螢幕擷取畫面 2022-10-07 113231](https://user-images.githubusercontent.com/103319735/194462258-82013ab4-5b93-473c-aca5-5754e1edff5f.jpg)
 
-# Method 1 (with O((N-1)!)))
+# Method 1 (2422ms/14.5MB)
 
 ```
 class Solution(object):
@@ -16,7 +16,7 @@ def twoSum(self, nums, target):
 1. 從第一個數字開始檢視，一一比對和後面數字的加總是否等於target
 2. 若是則return兩數字之index
 
-# Method 2 (with O(N))
+# Method 2 (86ms/14.2MB)
 
 ```
 class Solution(object):
