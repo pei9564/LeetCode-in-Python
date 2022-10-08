@@ -63,4 +63,4 @@ class Solution(object):
 3. 若是加總數字>target，r往前抓(加總減少)，反之l往後找(加總增加)
 4. 注意：若三位數加總剛好等於target，直接return，若已經推到r和l是相鄰兩位，則退出while迴圈，不更改r&l
 5. 一般情況下應該不會剛好等於target，於是儲存到dictionary中，`key = sum-target的絕對值`，`value=sum`
-6. 最後return最小相差值的valu
+6. 最後return最小相差值的value
